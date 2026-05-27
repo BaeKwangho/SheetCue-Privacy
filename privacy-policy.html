@@ -49,10 +49,30 @@
       color: var(--muted);
       margin: 0 0 32px;
     }
+
+    .language-nav {
+      display: flex;
+      gap: 16px;
+      margin: 0 0 32px;
+    }
+
+    a {
+      color: #0b57d0;
+    }
+
+    .english {
+      margin-top: 64px;
+    }
   </style>
 </head>
 <body>
   <main>
+    <nav class="language-nav" aria-label="Language">
+      <a href="#ko">한국어</a>
+      <a href="#en">English</a>
+    </nav>
+
+    <section id="ko" lang="ko">
     <h1>SheetCue 개인정보처리방침</h1>
     <p class="updated">최종 업데이트: 2026년 5월 27일</p>
 
@@ -119,8 +139,87 @@
 
     <h2>문의</h2>
     <p>
-      개인정보 관련 문의: <a href="mailto:jason@monymony.co">jason@monymony.co</a>
+      개인정보 관련 문의: <a href="mailto:sheetcue.cs@gmail.com">sheetcue.cs@gmail.com</a>
     </p>
+    </section>
+
+    <section id="en" lang="en" class="english">
+      <h1>SheetCue Privacy Policy</h1>
+      <p class="updated">Last updated: May 27, 2026</p>
+
+      <p>
+        SheetCue helps users import PDF sheet music, create measure-based
+        playback presets, and practice with those presets. This Privacy Policy
+        explains how SheetCue handles user and device data.
+      </p>
+
+      <h2>Data Stored On Your Device</h2>
+      <p>SheetCue may store the following data locally on your device:</p>
+      <ul>
+        <li>PDF sheet music files imported by the user</li>
+        <li>Rendered sheet music page images</li>
+        <li>Cropped measure images</li>
+        <li>
+          Preset information such as title, BPM, beats, page count, playback
+          order, creation date, and edit date
+        </li>
+      </ul>
+
+      <h2>Accounts And Server Uploads</h2>
+      <p>
+        The current version of SheetCue does not create user accounts and does
+        not upload your PDF sheet music files or presets to a SheetCue server.
+        The current version does not operate a separate SheetCue backend
+        service.
+      </p>
+
+      <h2>Advertising And Consent</h2>
+      <p>
+        SheetCue includes advertising through Google Mobile Ads. Information
+        such as ad requests, ad impressions, ad interactions, device identifiers,
+        or advertising IDs may be processed by Google and relevant advertising
+        partners.
+      </p>
+      <p>
+        Where required, SheetCue checks advertising consent status through
+        Google User Messaging Platform before showing ads. For more information
+        about advertising data processing, please refer to Google's Privacy
+        Policy and Google's advertising-related explanations.
+      </p>
+
+      <h2>Sale Of Data</h2>
+      <p>
+        SheetCue does not sell your sheet music files or preset data.
+      </p>
+
+      <h2>User Control</h2>
+      <p>
+        You can delete saved presets inside the app. Deleting a preset removes
+        that preset record and related local data from app storage. If you delete
+        the app, local app data is also deleted according to your operating
+        system's behavior.
+      </p>
+
+      <h2>Children's Privacy</h2>
+      <p>
+        SheetCue is not designed to knowingly collect personal information from
+        children. If a parent or guardian needs to contact us about a child's
+        personal information, they can use the contact email below.
+      </p>
+
+      <h2>Changes To This Policy</h2>
+      <p>
+        If analytics, crash reporting, cloud sync, personalized advertising, or
+        account features are added in the future, SheetCue will update this
+        Privacy Policy and store privacy disclosures to match the app's actual
+        behavior before release or update.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Privacy inquiries: <a href="mailto:sheetcue.cs@gmail.com">sheetcue.cs@gmail.com</a>
+      </p>
+    </section>
   </main>
 </body>
 </html>
